@@ -1,0 +1,21 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Spacewar"
+		{
+			"string"
+			{
+				"Exe_Path"		"%INSTALLDIR%\\SteamworksExample.exe"
+			}
+			"dword"
+			{
+				"PatchVersion"		"42"
+			}
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"73e0f9de20170933ce6e965a4ce570079b346628fdae45d5ea873e8f10968726b087cd2426ede82d3dc38ab5dafd65f4f445b277f3e8cddc5123cfdf5681c09c8cad5b0ef3b9e8ba48349a7f71e5661cdb059867ec6738eb9970c803712d62ad80960f25fa0571f5b8af7da585657796d403b9c72483edb3cadcb4efc7157a8c"
+}

@@ -1,0 +1,21 @@
+"AppState"
+{
+	"appid" "246620"
+	"Universe" "1"
+	"name" "Plague Inc: Evolved"
+	"StateFlags" "4"
+	"installdir" "Plague Inc Evolved"
+	"LastUpdated" "1775677883"
+	"UpdateResult" "0"
+	"SizeOnDisk" "0"
+	"buildid" "0"
+	"LastOwned" "1775677883"
+	"BytesToDownload" "0"
+	"BytesDownloaded" "0"
+	"AutoUpdateBehavior" "0"
+	"AllowOtherDownloadsWhileRunning" "0"
+	"ScheduledAutoUpdate" "0"
+	"InstalledDepots"
+	{
+	}
+}

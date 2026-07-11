@@ -1,0 +1,22 @@
+"AppState"
+{
+	"appid" "2092840"
+	"Universe" "1"
+	"name" "The Occultist"
+	"StateFlags" "4"
+	"installdir" "The Occultist"
+	"LastUpdated" "1775679204"
+	"UpdateResult" "0"
+	"SizeOnDisk" "0"
+	"buildid" "0"
+	"LastOwned" "1775679204"
+	"BytesToDownload" "0"
+	"BytesDownloaded" "0"
+	"AutoUpdateBehavior" "0"
+	"AllowOtherDownloadsWhileRunning" "0"
+	"ScheduledAutoUpdate" "0"
+	"InstalledDepots"
+	{
+		"2092840" "1775679204"
+	}
+}
