@@ -1,25 +1,23 @@
-# Steam Manifest Generator — Steam .manifest fájlok automatikus generálása
+# Steam Manifest Generator — Auto-Generate Steam .manifest Files
 
-**Status:** ✅ Working — manifest generátor tesztelve, GUI + CLI, PyInstaller EXE építve
+**Status:** ✅ Working — manifest generator tested, GUI + CLI, PyInstaller EXE built
 
-Automatikusan generál Steam `.manifest` fájlokat bármely játékhoz. Tartalmaz GUI-t és CLI-t is.
+Auto-generate Steam `.manifest` files for any game. Includes GUI and CLI tools.
 
 ## ⚠️ THIS PROJECT IS UNFINISHED — FEEL FREE TO CONTINUE IT ⚠️
 
-**Ez a projekt NINCS KÉSZEN. Bárki folytathatja, aki akarja!**
-Ezt a projektet Zsombi & Hermes Agent (Nous Research) közösen fejlesztette, de egyik projekt sincs 100%-osan befejezve.
+This project was developed by Zsombi & Hermes Agent (Nous Research).
 
 ---
 
-## Fájlok
-| Fájl | Leírás |
-|------|--------|
-| `ultimate_fixed_generator.py` | Fő manifest generátor |
-| `auto_gui_generator.py` | GUI-alapú generátor |
-| `manifest_installer.py` | Manifest telepítő |
-| `universal_launcher.py` | Univerzális játék indító |
-| `analyze_manifest.py` | Meglévő manifest elemző |
-| `auto_manifest_generator.py` | Automata generátor |
+## Files
+| File | Description |
+|------|-------------|
+| `ultimate_fixed_generator.py` | Main manifest generator |
+| `auto_gui_generator.py` | GUI-based generator |
+| `manifest_installer.py` | Manifest installer |
+| `universal_launcher.py` | Universal game launcher |
+| `analyze_manifest.py` | Manifest analyzer |
 
-## Fejlesztő
+## Developer
 Zsombi & Hermes Agent (Nous Research)
