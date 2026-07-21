@@ -1,41 +1,25 @@
-# Steam Manifest Generator
+# Steam Manifest Generator — Steam .manifest fájlok automatikus generálása
 
-**Status:** ✅ Working — manifest generator tested, GUI + CLI, PyInstaller EXE built
+**Status:** ✅ Working — manifest generátor tesztelve, GUI + CLI, PyInstaller EXE építve
 
+Automatikusan generál Steam `.manifest` fájlokat bármely játékhoz. Tartalmaz GUI-t és CLI-t is.
 
-Auto-generate Steam `.manifest` files for any game. GUI + CLI tool.
+## ⚠️ THIS PROJECT IS UNFINISHED — FEEL FREE TO CONTINUE IT ⚠️
 
-**Author:** Zsombi & Hermes Agent (Nous Research)
+**Ez a projekt NINCS KÉSZEN. Bárki folytathatja, aki akarja!**
+Ezt a projektet Zsombi & Hermes Agent (Nous Research) közösen fejlesztette, de egyik projekt sincs 100%-osan befejezve.
 
-## Features
-- Analyze existing manifests (`analyze_manifest.py`, `analyze_real_manifest.py`)
-- Auto-generate manifests from game files (`auto_manifest_generator.py`)
-- GUI version (`auto_gui_generator.py`, `gui_generator_final.py`)
-- Ultimate fixed generator (`ultimate_fixed_generator.py`)
-- Steam Spacewar integration
-- PyInstaller EXE build support
+---
 
-## Files
-| File | Description |
-|------|-------------|
-| `ultimate_fixed_generator.py` | Main manifest generator |
-| `auto_gui_generator.py` | GUI-based generator |
-| `manifest_installer.py` | Manifest installer tool |
-| `universal_launcher.py` | Universal game launcher |
-| `final_icon.ico` | Application icon |
+## Fájlok
+| Fájl | Leírás |
+|------|--------|
+| `ultimate_fixed_generator.py` | Fő manifest generátor |
+| `auto_gui_generator.py` | GUI-alapú generátor |
+| `manifest_installer.py` | Manifest telepítő |
+| `universal_launcher.py` | Univerzális játék indító |
+| `analyze_manifest.py` | Meglévő manifest elemző |
+| `auto_manifest_generator.py` | Automata generátor |
 
-## Usage
-```bash
-# GUI mode
-python auto_gui_generator.py
-
-# CLI mode
-python ultimate_fixed_generator.py
-
-# Build EXE
-pyinstaller universal_launcher.spec
-```
-
-## Dependencies
-- Python 3.8+
-- PyInstaller (for EXE builds)
+## Fejlesztő
+Zsombi & Hermes Agent (Nous Research)
