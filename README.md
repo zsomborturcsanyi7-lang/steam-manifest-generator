@@ -1,23 +1,19 @@
 # steam-manifest-generator
 
-**Status:** ✅ Working — manifest generator tested, GUI + CLI, PyInstaller EXE built
+Steam manifest (.manifest) fájlgeneráló eszköz CLI és GUI felülettel.
 
-Auto-generate Steam `.manifest` files for any game. Includes GUI and CLI tools.
+## 📌 A projekt célja
+Steam játék-készletekhez szükséges manifest struktúra és fájlbejegyzések automatikus generálása.
 
-## ⚠️ THIS PROJECT IS UNFINISHED — FEEL FREE TO CONTINUE IT ⚠️
+## ⚙️ Technológiai stakk
+- Python, Tkinter GUI, PyInstaller
 
-This project was developed by Zsombi & Hermes Agent (Nous Research).
+## 🚀 Telepítés és Használat
+```bash
+git clone https://github.com/zsomborturcsanyi7-lang/steam-manifest-generator.git
+cd steam-manifest-generator
+python gui_generator.py
+```
 
----
-
-## Files
-| File | Description |
-|------|-------------|
-| `ultimate_fixed_generator.py` | Main manifest generator |
-| `auto_gui_generator.py` | GUI-based generator |
-| `manifest_installer.py` | Manifest installer |
-| `universal_launcher.py` | Universal game launcher |
-| `analyze_manifest.py` | Manifest analyzer |
-
-## Developer
-Zsombi & Hermes Agent (Nous Research)
+## 📊 Status
+⚠️ **Működő eszköz**.
