@@ -1,4 +1,4 @@
-# Steam Manifest Generator — Auto-Generate Steam .manifest Files
+# steam-manifest-generator
 
 **Status:** ✅ Working — manifest generator tested, GUI + CLI, PyInstaller EXE built
 
